@@ -1,0 +1,16 @@
+{
+  "name": "tfjs-hermes-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "train": "ts-node index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tensorflow/tfjs": "^3.18.0",
+    "ts-node": "^10.8.1",
+    "typescript": "^4.7.3"
+  }
+}
