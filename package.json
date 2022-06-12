@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "type": "module",
-  "main": "index.js",
   "scripts": {
-    "train": "node index.js"
+    "test": "node index.js",
+    "test:hermes": "./hermes -commonjs index.js tensor.js"
   },
   "author": "",
   "license": "ISC",
