@@ -2,9 +2,10 @@
   "name": "tfjs-hermes-bug",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "train": "ts-node index.ts"
+    "train": "node index.js"
   },
   "author": "",
   "license": "ISC",
