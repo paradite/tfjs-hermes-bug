@@ -1,5 +1,7 @@
 # tfjs hermes bug
 
+For issues https://github.com/tensorflow/tfjs/issues/6526 and https://github.com/tensorflow/tfjs/issues/5972
+
 ## Reproduction
 
 - Install dependencies with `yarn` (it is not necessary to setup tfjs git submodule)
