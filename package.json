@@ -4,15 +4,20 @@
   "description": "",
   "type": "module",
   "scripts": {
-    "build:metro": "node metro-build.cjs",
-    "run:metro": "./hermes metro-web-build-out.js",
-    "buildrun:metro": "node metro-build.cjs && ./hermes metro-web-build-out.js"
+    "sample:build:metro": "node metro-build.cjs",
+    "sample:run:hermes": "./hermes metro-web-build-out.js",
+    "sample:buildrun": "node metro-build.cjs && ./hermes metro-web-build-out.js",
+    "tfjs:node": "node ./tfcode.js",
+    "tfjs:build:metro": "node tfcode-metro-build.cjs",
+    "tfjs:run:hermes": "./hermes tfcode-metro-web-build-out.js",
+    "tfjs:buildrun": "node tfcode-metro-build.cjs && ./hermes tfcode-metro-web-build-out.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@tensorflow/tfjs": "^3.18.0",
+    "@tensorflow/tfjs": "^4.10.0",
     "expo-asset": "^8.10.1",
+    "expo-gl": "^13.0.1",
     "react-native": "^0.72.4",
     "ts-node": "^10.8.1",
     "typescript": "^4.7.3"

@@ -76,3 +76,4 @@ dist/
 # @end expo-cli
 
 metro-web-build-out.js
+train-metro-web-build-out.js
