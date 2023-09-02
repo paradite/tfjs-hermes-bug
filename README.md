@@ -1,6 +1,10 @@
 # tfjs hermes bug
 
-For issues https://github.com/tensorflow/tfjs/issues/6526 and https://github.com/tensorflow/tfjs/issues/5972
+For issues:
+
+- https://github.com/tensorflow/tfjs/issues/5972
+- https://github.com/tensorflow/tfjs/issues/6526
+- https://github.com/tensorflow/tfjs/issues/7056
 
 ## Reproduction
 
