@@ -10,9 +10,12 @@ For issues:
 
 - Install dependencies with `yarn` (it is not necessary to setup tfjs git submodule)
 - Run `npm run tfjs:node`
-  - Runs tfjs code with Nodejs, prints "result 2" without error
+  - Runs tfjs code with Node.js
+  - Prints "result 2" without error
 - Run `npm run tfjs:buildrun`
-  - Bundles tfjs code with metro, runs with Hermes, gives the error "Uncaught Error: Argument 'x' passed to 'argMax' must be a Tensor or TensorLike, but got 'e'"
+  - Bundles tfjs code with Metro
+  - Runs tfjs code with Hermes
+  - Gives the error "Uncaught Error: Argument 'x' passed to 'argMax' must be a Tensor or TensorLike, but got 'e'"
 
 We can probably get more readable build output by tweaking the metro config.
 
