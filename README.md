@@ -1,11 +1,12 @@
 # tfjs hermes bug
 
-## Running
+## Reproduction
 
-- `npm run test`
-  - prints 2
-- `npm run test:hermes`
-  - tensor.js:1:1: error: class declaration exports are unsupported
+- Install dependencies with `yarn` (it is not necessary to setup tfjs git submodule)
+- Run `npm run tfjs:node`
+  - Runs tfjs code with Nodejs, prints "result 2" without error
+- Run `npm run tfjs:buildrun`
+  - Bundles tfjs code with metro, runs with Hermes, gives the error "Uncaught Error: Argument 'x' passed to 'argMax' must be a Tensor or TensorLike, but got 'e'"
 
 ## Hermes binary
 
